@@ -1,0 +1,122 @@
+
+.max-width{
+    width: 100%;
+    max-width: 800px;
+    margin:0 auto ;
+
+}
+.header{ 
+    width: auto;
+    height: 50px;
+    background-color: rgb(70, 222, 230);
+}
+h1{
+   
+    float: right;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1200px;
+    margin-right: 60px;
+    margin-top: -40px;
+}
+.saudaçoes{
+    background-color: rgb(246, 238, 238, .2); 
+    width: 350px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left:800px;
+    margin-top: 470px;
+    
+}
+h2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+    
+    
+}
+.iconsol{
+    width: 60px;
+    margin-right: 800px;
+    float: right;
+}
+.nome{
+    margin-bottom: 5px;
+    margin-left: -15px;
+    float: right;
+
+}
+.nuvem{
+    float: right;
+    width: 100px;
+    margin-left: 800px;
+    margin-right: 30px;
+    margin-top: -50px;
+}
+.redes{
+    margin-top: -10px;
+    width: 80px;
+    margin-left: 15px;
+    
+}
+body{ 
+    background-image: url("fundocrianças.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+}
+a{ text-decoration: none;
+    color: white;
+}
+ul{ list-style: none;
+}
+ul{
+    
+    top: 35px;
+    position: absolute;
+    width: 80%;
+
+}
+.menuimg{
+    width: 50px;
+    margin-top: -12px;
+
+}
+input[type="checkbox"]{
+    display: none;
+}
+nav{ 
+    background-color: rgb(245, 101, 195) ;
+    width: 220px;
+    height: 30%;
+    left: -220px;
+    position: absolute;
+    transition: all .5s;
+
+}
+input[type="checkbox"]:checked ~ nav
+{
+    transform: translateX(220px);
+}
+
+a{
+    display: block;
+    padding: 20px ;
+    font-size: 20px;
+    
+}
+a:hover{
+    background-color: yellow;
+    color: black;
+    
+
+}
+label{
+    
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+    
